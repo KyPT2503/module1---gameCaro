@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <style>
+        * {
+            box-sizing:border-box;
+        }
+        .box {
+            display:inline-block;
+            width:30px;
+            height:30px;
+            border:1px solid deepskyblue;
+            color:darkred;
+            font-size:25px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+<button onclick="newGame()">Start</button>
+<span id="end-game"></span>
+<br><br>
+<div id="for-box" style="position:absolute" onmousedown="boxClick()">
+
+</div>
+<script src="Box.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
